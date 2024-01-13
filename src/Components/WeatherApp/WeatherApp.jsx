@@ -11,7 +11,7 @@ import wind_icon from "../Assets/wind.png";
 import sunny_icon from "../Assets/sunny.png";
 
 const WeatherApp = () => {
-    const process = { env: { NODE_ENV: 'development' } };
+
     let api_key = process.env.REACT_APP_WEATHER_API_KEY;
 
     const search = async () => {
